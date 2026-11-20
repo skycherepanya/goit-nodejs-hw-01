@@ -1,0 +1,25 @@
+{
+  "name": "file-organizer",
+  "version": "1.0.0",
+  "description": "CLI tool for analyzing, deduplicating, organizing, and cleaning up directories using Node.js",
+  "type": "module",
+  "main": "file-organizer.js",
+  "scripts": {
+    "scan": "node file-organizer.js scan",
+    "duplicates": "node file-organizer.js duplicates",
+    "organize": "node file-organizer.js organize",
+    "cleanup": "node file-organizer.js cleanup"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "cli",
+    "nodejs",
+    "file-organizer",
+    "streams",
+    "eventemitter"
+  ],
+  "author": "Oleksandr Cherepanya",
+  "license": "MIT"
+}
